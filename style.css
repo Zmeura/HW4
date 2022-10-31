@@ -1,13 +1,13 @@
 body {
   font-family: "PT Sans", sans-serif;
   margin: 0;
+  box-sizing: border-box;
+  width: 1920px;
+  height: 2865px;
 }
 
 .main-container {
-  width: 1920px;
-  height: 2865px;
   background: #fbe4ff;
-  margin: auto;
 }
 
 header {
@@ -169,9 +169,10 @@ h1 {
 
 .up-button {
   position: fixed;
-  right: 100px;
+  left: 800px;
   bottom: 294px;
   transition: all 200ms ease-in-out;
+  z-index: 9;
 }
 
 .up-button:hover {
