@@ -1,16 +1,19 @@
 body {
   font-family: "PT Sans", sans-serif;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .main-container {
   background: #fbe4ff;
-  width: 1920px;
+  max-width: 1920px;
+  position: relative;
 }
 
 header {
-  width: 1920px;
+  width: 100%;
+  max-width: 1920px;
   height: 65px;
   background: #243b93;
   position: fixed;
@@ -53,7 +56,7 @@ main {
 }
 
 .panel {
-  width: 100%;
+  /* width: 1920px; */
   height: 85px;
   background: #bff0ff;
   padding-top: 64px;
@@ -169,7 +172,7 @@ h1 {
 
 .up-button {
   position: fixed;
-  left: 1200px;
+  left: 1600px;
   bottom: 294px;
   transition: all 200ms ease-in-out;
   z-index: 9;
@@ -201,7 +204,7 @@ h1 {
 }
 
 .cabinet {
-  width: 100%;
+  /* width: 1920px; */
   height: 85px;
   background: linear-gradient(90deg, #ffe601 0%, #55d6ff 100%);
   font-style: italic;
@@ -295,7 +298,7 @@ h1 {
 }
 
 .contacts {
-  width: 100%;
+  /* width: 1920px; */
   height: 85px;
   background: linear-gradient(90deg, #54d6ff 0%, #ffe600 100%);
   font-style: italic;
@@ -362,7 +365,7 @@ h1 {
 }
 
 footer {
-  width: 100%;
+  /* width: 1920px; */
   height: 65px;
   background: #243b93;
   font-weight: 700;
