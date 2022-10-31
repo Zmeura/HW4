@@ -169,7 +169,7 @@ h1 {
 
 .up-button {
   position: fixed;
-  right: 570px;
+  right: 100px;
   bottom: 294px;
   transition: all 200ms ease-in-out;
 }
