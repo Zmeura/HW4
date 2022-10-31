@@ -2,12 +2,11 @@ body {
   font-family: "PT Sans", sans-serif;
   margin: 0;
   box-sizing: border-box;
-  width: 1920px;
-  height: 2865px;
 }
 
 .main-container {
   background: #fbe4ff;
+  width: 1920px;
 }
 
 header {
