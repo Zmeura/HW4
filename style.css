@@ -176,10 +176,15 @@ h1 {
   bottom: 294px;
   transition: all 200ms ease-in-out;
   z-index: 9;
+  width: 101px;
+  height: 101px;
+  background: rgba(48, 12, 106, 0.3);
+  border: none;
+  border-radius: 50%;
 }
 
 .up-button:hover {
-  -webkit-filter: brightness(0);
+  background: rgba(48, 12, 106, 0.7);
 }
 
 .btn-details {
