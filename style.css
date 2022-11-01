@@ -56,7 +56,8 @@ main {
 }
 
 .panel {
-  /* width: 1920px; */
+  width: 100%;
+  max-width: 1920px;
   height: 85px;
   background: #bff0ff;
   padding-top: 64px;
@@ -209,7 +210,8 @@ h1 {
 }
 
 .cabinet {
-  /* width: 1920px; */
+  width: 100%;
+  max-width: 1920px;
   height: 85px;
   background: linear-gradient(90deg, #ffe601 0%, #55d6ff 100%);
   font-style: italic;
@@ -303,7 +305,8 @@ h1 {
 }
 
 .contacts {
-  /* width: 1920px; */
+  width: 100%;
+  max-width: 1920px;
   height: 85px;
   background: linear-gradient(90deg, #54d6ff 0%, #ffe600 100%);
   font-style: italic;
@@ -370,7 +373,8 @@ h1 {
 }
 
 footer {
-  /* width: 1920px; */
+  width: 100%;
+  max-width: 1920px;
   height: 65px;
   background: #243b93;
   font-weight: 700;
